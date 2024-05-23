@@ -1,7 +1,7 @@
 const btnSim = document.querySelector("#sim")
 const btnNao = document.querySelector("#nao")
 btnSim.addEventListener("click",function sim(){
-    alert("ISSUUUUUUU")
+    alert("Eu te amo!")
 });
 btnNao.addEventListener("mouseover",function nao(){
     btnNao.style.bottom = geraPosicao(0, 90);
